@@ -1,0 +1,22 @@
+organizations:
+        -
+                name: Facebook
+                description: 'Facebook [ˈfeɪsbʊk] est une société américaine créée en 2004 par Mark Zuckerberg. Initialement concentrée sur le réseau social Facebook, la compagnie a racheté Instagram en 2012, ainsi que WhatsApp et Oculus VR en 2014'
+                users:
+                        -
+                                name: Mark
+                                role:
+                                        - ADMIN
+                                        - CEO
+                                password: demo
+                        -
+                                name: Jean
+                                role:
+                                        - ADMIN
+                                        - CTO
+                                password: demo2
+                        -
+                                name: Pierre
+                                role:
+                                        - SALES
+                                password: demo3

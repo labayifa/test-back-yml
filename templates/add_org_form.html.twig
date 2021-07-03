@@ -1,0 +1,24 @@
+{# /templates/form/new_article.html.twig #}
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        {{ form_start(orgForm, {
+            'attr': {
+                'novalidate': 'novalidate',
+                'class': 'col-lg-5'
+            }
+        })
+        }}
+
+        {{ form_row(orgForm.name) }}
+        {{ form_row(orgForm.description) }}
+        <button type="submit" class="btn btn-primary">Ajouter</button>
+        {{ form_end(orgForm) }}
+    </div>
+</div>
+</body>
+</html>
